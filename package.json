@@ -1,0 +1,21 @@
+{
+  "name": "apiexpress",
+  "version": "1.0.0",
+  "description": "Primera api con express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisMeraz01/Api_Express/settings"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "servidor",
+    "web"
+  ],
+  "author": "Luis Angel Meraz Barajas",
+  "license": "ISC"
+}
