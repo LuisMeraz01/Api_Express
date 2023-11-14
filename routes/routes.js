@@ -41,8 +41,6 @@ const router = app => {
 
     });
 
-
-
     //Agregar un nuevo usuario
     app.post('/users', (request, response) => {
         pool.query('INSERT INTO users SET ?',
@@ -52,16 +50,5 @@ const router = app => {
             response.status(201).send(`User added with ID: ${result.insertId}`);
         });
     });
-
-
-
-
-
-
-
-
-
-
-
 }
 
