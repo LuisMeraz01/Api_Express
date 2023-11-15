@@ -5,7 +5,7 @@ const { request, response } = require('express');
 const pool = require('../data/config');
 
 // Ruta de la app
-const router = app => {
+const routes = app => {
 
     // Mostrar mensaje de bienvenida de root
     app.get('/', (request, response) => {
@@ -52,3 +52,5 @@ const router = app => {
     });
 }
 
+
+module.exports = routes;

@@ -11,7 +11,7 @@ const app = express();
 // Usar Node.js body parsing middleware
 app.use(bodyParser.json());
 
-PopStateEvent.use(bodyParser.urlencoded({
+app.use(bodyParser.urlencoded({
     extended: true,
 }));
 
